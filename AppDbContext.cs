@@ -1,5 +1,6 @@
 ﻿// Data/WebScraperContext.cs
 using Microsoft.EntityFrameworkCore;
+
 public class WebScraperContext : DbContext
 {
     public WebScraperContext(DbContextOptions<WebScraperContext> options) : base(options)
